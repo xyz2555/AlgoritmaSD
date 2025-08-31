@@ -6,58 +6,122 @@
     <p>Nama: Muhammad Aveesena Alfarabi</p>
     <p>NIM: I0723049</p>
 </head>
+
 <body>
     <form>
         <fieldset>
             <legend>Data Pribadi</legend>
-            <label for="nama">Nama</label><br>
-            <input type="text" id="name"><br>
-            <label for="NIK">NIK</label><br>
-            <input type="number" id="NIK"><br>
-            <label for="NISN">Nomor Induk Siswa Nasional (NISN)</label><br>
-            <input type="number" id="NISN"><br>
-            <label for="BPJS">Nomor BPJS</label><br>
-            <input type="number" id="BPJS"><br>
-            <label for="NPWP">NPWP</label><br>
-            <input type="text" id="NPWP"><br>
-            <label for="nama">Nama</label><br>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama</label><br>
+                        <input type="text" id="name">
+                    </td>   
+                </tr>
+                <tr>
+                    <td><label for="NIK">NIK</label><br>
+                        <input type="number" id="NIK"><br>
+                    </td>
+                    <td>
+                        <label for="NISN">Nomor Induk Siswa Nasional (NISN)</label><br>
+                        <input type="number" id="NISN"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="BPJS">Nomor BPJS</label><br>
+                        <input type="number" id="BPJS"><br>
+                    </td>
+                    <td>
+                        <label for="NPWP">NPWP</label><br>
+                        <input type="text" id="NPWP">
+                    </td>
+                </tr>
+            </table>
         </fieldset>
         <fieldset>
             <legend>Tempat Tinggal</legend>
-            <label for="AlamatJalan">Alamat Jalan</label><br>
-            <input type="text" id="AlamatJalan"><br>
-            <label for="RT">Alamat Nomor RT</label><br>
-            <input type="text" id="RT"><br>
-            <label for="RW">Alamat Nomor RW</label><br>
-            <input type="text" id="RW"><br>
-            <label for="Provinsi">Provinsi Tinggal</label><br>
-            <input type="text" id="Provinsi"><br>
-            <label for="Kabupaten">Kabupaten Tinggal</label><br>
-            <input type="text" id="Kabupaten"><br>
-            <label for="Kecamatan">Kecamatan Tinggal</label><br>
-            <input type="text" id="Kecamatan"><br>
-            <label for="Desa">Alamat Desa</label><br>
-            <input type="text" id="Desa"><br>
+            <table>
+                <tr>
+                    <td><label for="AlamatJalan">Alamat Jalan</label><br>
+                        <input type="text" id="AlamatJalan"><br>
+                    </td>
+                    <td>
+                        <label for="RT">Alamat Nomor RT</label><br>
+                        <input type="text" id="RT"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="RW">Alamat Nomor RW</label><br>
+                        <input type="text" id="RW"><br>
+                    </td>
+                    <td>
+                        <label for="Provinsi">Provinsi Tinggal</label><br>
+                        <input type="text" id="Provinsi"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Kabupaten">Kabupaten Tinggal</label><br>
+                        <input type="text" id="Kabupaten"><br>
+                    </td>
+                    <td>
+                        <label for="Kecamatan">Kecamatan Tinggal</label><br>
+                        <input type="text" id="Kecamatan"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Desa">Alamat Desa</label><br>
+                        <input type="text" id="Desa"><br>
+                    </td>
+                </tr>
+            </table>
+
         </fieldset>
         <fieldset>
             <legend>Kontak</legend>
-            <label for="Email">Email</label><br>
-            <input type="email" id="Email"><br>
-            <label for="Telpon">No Telp/Hp Ortu</label><br>
-            <input type="number" id="Telpon"><br>
-            <label for="Ibu">Nama Ibu</label><br>
-            <input type="text" id="Ibu"><br>
-            <label for="Ayah">Nama Ayah</label><br>
-            <input type="text" id="Ayah"><br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="Email">Email</label><br>
+                        <input type="email" id="Email"><br>
+                    </td>
+                    <td>
+                        <label for="Telpon">No Telp/Hp Ortu</label><br>
+                        <input type="number" id="Telpon"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Ibu">Nama Ibu</label><br>
+                        <input type="text" id="Ibu"><br>
+                    </td>
+                    <td>
+                        <label for="Ayah">Nama Ayah</label><br>
+                        <input type="text" id="Ayah"><br>
+                    </td>
+                </tr>
+            </table>
         </fieldset>
         <fieldset>
             <legend>Kebutuhan Khusus</legend>
-            <label for="khususMaha">Kebutuhan Khusus Mahasiswa</label><br>
-            <input list="Kebutuhan" id="khususMaha"><br>
-            <label for="khususIbu">Kebutuhan Khusus Ibu</label><br>
-            <input list="Kebutuhan" id="khususIbu"><br>
-            <label for="khususAyah">Kebutuhan Khusus Ayah</label><br>
-            <input list="Kebutuhan" id="khususAyah"><br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="khususMaha">Kebutuhan Khusus Mahasiswa</label><br>
+                        <input list="Kebutuhan" id="khususMaha" style="width: 90%;"><br>
+                    </td>
+                    <td>
+                        <label for="khususIbu">Kebutuhan Khusus Ibu</label><br>
+                        <input list="Kebutuhan" id="khususIbu"><br>
+                    </td>
+                    <td>
+                        <label for="khususAyah">Kebutuhan Khusus Ayah</label><br>
+                        <input list="Kebutuhan" id="khususAyah"><br>
+                    </td>
+                </tr>
+            </table>
             <datalist id="Kebutuhan">
                 <option value="Tidak ada"></option>
                 <option value="Tuna Netra"></option>
@@ -81,4 +145,5 @@
         <input type="submit">
     </form>
 </body>
+
 </html>
