@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jangan tanya aku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div id="navbar">
+            <button id="navbar-menu">=</button>
+            <div id="major-navbar">
+                <button class="major-navbar-button Home-button" onclick="location.href='Home.html'"
+                    style="cursor: pointer;">Home</button>
+                <button class="major-navbar-button Bali-button" onclick="location.href='Bali.html'"
+                    style="cursor: pointer;">Bali</button>
+                <button class="major-navbar-button Jogja-button" onclick="location.href='Jogja.html'"
+                    style="cursor: pointer;">Jogja</button>
+                <button class="major-navbar-button Ortu-button" onclick="location.href='Kuesioner.html'"
+                    style="cursor: pointer;">Kuesioner</button>
+            </div>
+        </div>
+        <div id="main">
+            <form action="#" method="post">
+                <h2>Kuisioner Minat Liburan</h2>
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <p>Destinasi Favorit:</p>
+                <input type="radio" id="bali" name="destinasi" value="Bali">
+                <label for="bali">Bali</label><br>
+                <input type="radio" id="jogja" name="destinasi" value="Jogja">
+                <label for="jogja">Jogja</label><br>
+                <input type="radio" id="lainnya" name="destinasi" value="Lainnya">
+                <label for="lainnya">Lainnya</label><br><br>
+
+                <p>Jenis liburan yang disukai:</p>
+                <input type="checkbox" id="pantai" name="liburan[]" value="Pantai">
+                <label for="pantai">Pantai</label><br>
+                <input type="checkbox" id="gunung" name="liburan[]" value="Gunung">
+                <label for="gunung">Gunung</label><br>
+                <input type="checkbox" id="kota" name="liburan[]" value="Kota">
+                <label for="kota">Wisata Kota</label><br>
+                <input type="checkbox" id="budaya" name="liburan[]" value="Budaya">
+                <label for="budaya">Budaya & Sejarah</label><br><br>
+
+                <label for="budget">Budget Liburan:</label><br>
+                <select id="budget" name="budget">
+                    <option value="hemat">Hemat</option>
+                    <option value="sedang">Sedang</option>
+                    <option value="premium">Premium</option>
+                </select><br><br>
+
+                <label for="komentar">Komentar / Saran:</label><br>
+                <textarea id="komentar" name="komentar" rows="4" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Kirim">
+            </form>
+
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>

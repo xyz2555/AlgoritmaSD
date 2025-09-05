@@ -1,0 +1,57 @@
+body {
+    padding : 0px;
+    margin : 0px;
+}
+
+button {
+    color : white;
+    font-size : 13px;
+}
+
+#navbar {
+    display : flex;
+    background-color : #03adfc;
+    flex-direction : row;
+    align-items: center;
+}
+
+#navbar-menu{
+    border: none;
+    background-color: #03adfc;
+    padding-left: 20px;
+    font-size:25px;
+}
+
+#major-navbar {
+    margin-left: auto;
+}
+
+.major-navbar-button {
+    border :none;
+    background-color : #03adfc;
+    padding : 10px 5px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.article-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.article-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 15px;
+}
