@@ -34,14 +34,14 @@ button {
 
 #main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit); 
     gap: 20px;
     padding: 20px;
 }
 
 .article-card {
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px;
     overflow: hidden;
     cursor: pointer;
 }
