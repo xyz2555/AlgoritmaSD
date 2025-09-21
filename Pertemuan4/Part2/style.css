@@ -1,0 +1,41 @@
+body {
+    padding : 0px;
+    margin : 0px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar {
+    background-color : #03adfc;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 0;
+}
+
+#navbar > #navbar-menu{
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: flex-start ;
+}
+
+#navbar-menu{
+    border: none;
+    color: white;
+    background-color: #03adfc;
+    padding-left: 10px 20px;
+    font-size:25px;
+}
+
+#major-navbar {
+    /* padding-left : 420px; */
+    display: flex;
+    gap: 10px;
+}
+
+.major-navbar-button {
+    border :none;
+    background-color : #03adfc;
+    padding : 10px 5px;
+}

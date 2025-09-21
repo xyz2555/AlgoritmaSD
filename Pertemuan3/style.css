@@ -1,0 +1,16 @@
+body {
+    background-color: cornflowerblue;
+}
+
+div {
+    background-color: coral;
+}
+
+p#nama, p#nim {
+    font-family: 'Times New Roman';
+}
+
+p#nama {
+    border-style: dashed;
+    border-color: black 2px;
+}

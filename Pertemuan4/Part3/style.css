@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Navbar-Container {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#Navbar-Content{
+    background-color:red;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.Navbar-Item{
+    display: flex;
+    padding: 12px 24px;
+    background-color: white;
+    border: none
+}
